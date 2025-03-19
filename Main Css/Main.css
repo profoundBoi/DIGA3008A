@@ -11,13 +11,13 @@ nav
  width: 100%;
 }
 
-.logo
+label
 {
  color: #355C7D;
- font-size: 35px;
+ font-size: 25px;
  font-weight: bold;
  line-height: 80px;
- margin: 0 50px;
+ margin: 0 40px;
 }
 
 nav ul
