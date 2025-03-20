@@ -9,6 +9,7 @@ nav
  background: #a1c49f;
  height: 80px;
  width: 100%;
+ 
 }
 
 label
@@ -45,4 +46,11 @@ a.active
  background: #739c71;
  padding: 5px 15px;
  border-radius: 20px;
+}
+
+section h1
+{
+ text-align: center;
+ color: black;
+ font-size: 60px;
 }
