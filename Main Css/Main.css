@@ -71,6 +71,8 @@ section h1
  display: none;
 }
 
+/* This is the media query for the mobile version of the menu */
+/* I will use the media query to hide the menu and show the bar button when the screen is less than 1050px */
 @media (max-width:1050px)
 {
  .bar-button
@@ -80,10 +82,10 @@ section h1
  nav ul
  {
   position: fixed;
-  width: 100%;
-  background-color: #a1c49f61;
+  width: 50%;
+  background-color: #a1c49f;
   height: 100vh;
-  text-align: center;
+  text-align: left;
   top: 60px;
   left: -120%;        /*this will help me hide the menu*/
   transition: all 1s; /*this will help me control time between transitions specifically the menu*/
