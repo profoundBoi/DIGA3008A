@@ -18,25 +18,25 @@ label
  font-size: 25px;
  font-weight: bold;
  line-height: 80px;
- margin: 0 40px;
+ margin: 0 25px;
 }
 
 nav ul
 {
  float: right;
- margin-right: 40px;
+ margin-right: 10px;
 }
 
 nav ul li
 {
  display: inline-block;
- margin-right: 25px;
- margin-top: 15px;
+ margin-right: 20px;
+ margin-top: 10px;
 }
 
 nav ul li a
 {
- font-size: 23px;
+ font-size: 19px;
  color:  #355C7D;
  text-decoration: none;
 }
@@ -64,4 +64,43 @@ section h1
  line-height: 80px;
  cursor: pointer;
  display: none;
+}
+
+#check
+{
+ display: none;
+}
+
+@media (max-width:1050px)
+{
+ .bar-button
+ {
+  display: block;
+ }
+ nav ul
+ {
+  position: fixed;
+  width: 100%;
+  background-color: #a1c49f61;
+  height: 100vh;
+  text-align: center;
+  top: 60px;
+  left: -120%;        /*this will help me hide the menu*/
+  transition: all 1s; /*this will help me control time between transitions specifically the menu*/
+ }
+ nav ul li
+ {
+    display: block;
+    padding: 30px 0;
+ }
+ nav ul li a
+ {
+    font-size: 25px;
+    color: #355C7D ;
+    text-transform: uppercase;
+ }
+ #check:checked ~ ul
+ {
+  left: 0; /*this will help me show the menu*/
+ }
 }
