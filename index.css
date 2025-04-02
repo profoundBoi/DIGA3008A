@@ -1,6 +1,22 @@
 section h2
 {
+ font-family: "Tektur", sans-serif;
  text-align: center;
  font-size: 30px;
+}
+
+section article
+{
+ margin-left: 2%;
+ margin-right: 70%;
+ text-align: justify;
+ color: rgb(232, 232, 232);
+}
+section figure
+{
+ float: right;
+ margin-top: -20%;
+ margin-right: 2%;
+ 
 }
 

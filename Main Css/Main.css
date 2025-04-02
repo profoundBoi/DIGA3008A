@@ -1,27 +1,42 @@
 body
 {
- font-family: "Tektur", sans-serif;
- background-color: #8e9b8f;
+   background: #334e2e;
+   /*background-image: url('../images/profoundBoi.jpg') ; */
+   background-size: cover; 
+   background-position: center; 
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-position-y: -30%;
 }
 
 nav
 {
- background: #739c71;
+ font-family: "Tektur", sans-serif;
+ background: #334e2e;
  height: 80px;
  width: 100%;
- box-shadow: 0 0 55px  #081f3c;
+ box-shadow: 0 0 55px 20px  #517b25;
  border-radius: 2px  ;
- 
+ position:fixed;
+ top: 0px;
 }
 
 label
 {
- color: #000000;
- font-size: 35px;
+ color: #f8f8f8;
+ font-size: 30px;
  font-weight: bold;
  line-height: 80px;
- margin: 0 25px;
- text-transform: uppercase;
+ margin: 0 80px;
+ 
+ 
+}
+
+#logo
+{
+ width: 50px;
+ margin: 0 0 -15px -330px;
+ ;
 }
 
 nav ul
@@ -39,33 +54,35 @@ nav ul li
 
 nav ul li a
 {
- font-size: 20px;
- color:  #000000;
+ font-size: 15px;
+ color:  #ffffff;
  text-decoration: none;
  
 }
 
 a.active
 {
- background:#8e9b8f9a;
+ background:#8e9b8f;
  padding: 5px 15px;
- border-radius: 10px 100px;
- box-shadow: 0 0 20px  #051425; /* Added glow effect */
+ border-radius: 10px 90px;
+ box-shadow: 0 0 20px  #05220f; /* Added glow effect */
  
 }
 
 section h1
 {
+ font-family: "Tektur", sans-serif;
  text-align: center;
- color: black;
+ color: #ffffff;
  font-size: 60px;
- 
+ margin-top: 10%;
+
 }
 
 .bar-button
 {
  font-size: 30px;
- color: #355C7D;
+ color: #ffffff;
  float: right;
  margin-right: 40px;
  line-height: 80px;
@@ -80,7 +97,7 @@ section h1
 
 /* This is the media query for the mobile version of the menu */
 /* I will use the media query to hide the menu and show the bar button when the screen is less than 1050px */
-@media (max-width:1050px)
+@media (max-width:1000px)
 {
  .bar-button
  {
@@ -93,23 +110,24 @@ section h1
   background-color: #a1c49f;
   height: 100vh;
   text-align: left;
-  top: 60px;
-  left: -120%;        /*this will help me hide the menu*/
+  margin-right: 0px;
+  top: 64px;
+  right: -120%;      /*this will help me hide the menu*/
   transition: all 1s; /*this will help me control time between transitions specifically the menu*/
  }
  nav ul li
  {
     display: block;
-    padding: 30px 0;
+    padding: 15px 0;
  }
  nav ul li a
  {
     font-size: 25px;
-    color: #355C7D ;
+    color: #ffffff ;
     text-transform: uppercase;
  }
  #check:checked ~ ul
  {
-  left: 0; /*this will help me show the menu*/
+  right: 0; /*this will help me show the menu*/
  }
 }
