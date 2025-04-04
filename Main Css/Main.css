@@ -17,8 +17,7 @@ nav
  width: 100%;
  box-shadow: 0 0 55px 20px  #517b25;
  border-radius: 2px  ;
- position:fixed;
- top: 0px;
+
 }
 
 
@@ -64,10 +63,10 @@ nav ul li a
 
 a.active
 {
- background:#8e9b8f;
+ background:#0b3105;
  padding: 5px 15px;
  border-radius: 10px 90px;
- box-shadow: 0 0 20px  #05220f; /* Added glow effect */
+ box-shadow: 0 0 20px  #33680b; /* Added glow effect */
  
 }
 
@@ -77,7 +76,7 @@ section h1
  text-align: center;
  color: #ffffff;
  font-size: 60px;
- margin-top: 10%;
+ margin-top: 11%;
 
 }
 

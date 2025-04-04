@@ -5,18 +5,35 @@ section h2
  font-size: 30px;
 }
 
+.container
+{
+ border: 5px solid #082304;
+ margin: 0 30px;
+ width: 195vh;
+ height: 70vh;
+ box-shadow: 0 0 55px 20px   #517b25;
+ background-color: #082304;
+}
+
+nav
+{
+ position:fixed;
+ top: 0px;
+}
+
 section article
 {
- margin-left: 2%;
- margin-right: 70%;
+ margin-left: 7%;
+ margin-right: 50%;
+ margin-top: 3%;
  text-align: justify;
  color: rgb(232, 232, 232);
+ font-size: 25px;
 }
 section figure
 {
  float: right;
- margin-top: -15%;
+ margin-top: -26%;
  margin-right: 2%;
-  
 }
 
