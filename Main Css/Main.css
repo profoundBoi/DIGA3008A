@@ -1,14 +1,13 @@
 body
 {
    /*background: #334e2e;*/
-   background-image: url('../images/Background/gaming-vector-background-landscape-video-600nw-2308922901.jpg');
+   background-image: url('../Images/Background/gaming-vector-background-landscape-video-600nw-2308922901.jpg');
    background-size: cover; 
    background-position: center; 
    background-repeat: no-repeat;
    height: 100vh;
    background-position-y: -28%;
    background-attachment: fixed;
-   
 }
 
 nav
