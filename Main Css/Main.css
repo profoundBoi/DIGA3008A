@@ -6,7 +6,7 @@ body
    background-position: center; 
    background-repeat: no-repeat;
    height: 100vh;
-   background-position-y: -28%;
+   background-position-y: -27%;
    background-attachment: fixed;
 }
 
@@ -19,6 +19,8 @@ nav
  box-shadow: 0 0 55px 20px  #517b2594;
  border-radius: 2px;
  text-shadow: 0 0 5px #000000;
+ position:fixed;
+ top: 0px;
 }
 
 label
