@@ -25,9 +25,9 @@ nav
 
 nav ul li a:hover
 {
-   transform: translateY(-5px);
-   box-shadow: 0 0 50px   #517b25;
-   background: #517b25;
+ transform: translateY(-5px);
+ box-shadow: 0 0 50px   #517b25;
+ background: #517b25;
 }
 
 label
@@ -147,7 +147,7 @@ footer a
  {
   position: fixed;
   width: 50%;
-  background-color: #a1c49f;
+  background-color:#334e2e;
   height: 100vh;
   text-align: left;
   margin-right: 0px;
@@ -158,11 +158,11 @@ footer a
  nav ul li
  {
     display: block;
-    padding: 15px 0;
+    padding: 5px 0;
  }
  nav ul li a
  {
-    font-size: 25px;
+    font-size: 15px;
     color: #ffffff ;
     text-transform: uppercase;
  }
