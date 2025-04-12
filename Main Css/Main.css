@@ -93,6 +93,31 @@ section h1
  display: none;
 }
 
+footer
+{
+ font-family: "Tektur", sans-serif;
+ background: #334e2e;
+ height: 90px;
+ width: 100%;
+ box-shadow: 0 0 55px 20px  #517b25;
+ border-radius: 2px;
+ text-align: center;
+ padding: 20px;
+}
+
+footer a 
+{
+ color: white;
+ text-decoration: none;
+ margin: 0 15px;
+ font-size: 25px;
+ }
+ 
+ footer a i 
+ {
+  margin-right: 8px;
+ }
+
 /* This is the media query for the mobile version of the menu */
 /* I will use the media query to hide the menu and show the bar button when the screen is less than 1050px */
 @media (max-width:1000px)
