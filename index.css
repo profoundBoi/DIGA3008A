@@ -1,3 +1,4 @@
+
 section h2
 {
  font-family: "Tektur", sans-serif;
@@ -8,11 +9,12 @@ section h2
 .container
 {
  border: 5px solid #082304;
- margin: 0 30px;
+ margin: 10% 30px;
  width: 195vh;
- height: 70vh;
- box-shadow: 0 0 55px 20px   #517b25;
- background-color: #082304;
+ height: 75vh;
+ box-shadow: 0 0 55px 20px   #517b2591;
+ background-color: #08230489;
+ align-items: center;
 }
 
 nav
@@ -21,19 +23,19 @@ nav
  top: 0px;
 }
 
-section article
+main section article
 {
  margin-left: 7%;
  margin-right: 50%;
  margin-top: 3%;
  text-align: justify;
- color: rgb(232, 232, 232);
+ color: rgb(255, 255, 255);
  font-size: 25px;
 }
-section figure
+main section figure
 {
  float: right;
- margin-top: -26%;
+ margin-top: -31%;
  margin-right: 2%;
 }
 
