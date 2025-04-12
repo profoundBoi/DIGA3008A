@@ -25,10 +25,9 @@ nav
 
 nav ul li a:hover
 {
- background:#0b310583;
- padding: 5px 15px;
- border-radius: 10px 90px;
- box-shadow: 0 0 20px   #517b256e;
+   transform: translateY(-5px);
+   box-shadow: 0 0 50px   #517b25;
+   background: #517b25;
 }
 
 label
