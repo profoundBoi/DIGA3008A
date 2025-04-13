@@ -143,6 +143,10 @@ footer a
  {
   display: block;
  }
+ header
+ {
+  margin-top: 10%;
+ }
  nav ul
  {
   position: fixed;
