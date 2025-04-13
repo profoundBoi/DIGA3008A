@@ -174,4 +174,9 @@ footer a
  {
   right: 0; /*this will help me show the menu*/
  }
+ footer
+ {
+  width: 50%;
+  height: 100vh;
+ }
 }
