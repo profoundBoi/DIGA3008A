@@ -39,3 +39,49 @@ main section figure
  margin-right: 2%;
 }
 
+@media screen and (max-width: 1000px) 
+{
+section h2 
+{
+ font-size: 22px;
+}
+  
+.container 
+{
+ width: 90%;
+ height: auto;
+ margin: 10% auto;
+ padding: 20px;
+ box-sizing: border-box;
+}
+  
+main section article 
+{
+ margin: 5%;
+ font-size: 18px;
+}
+  
+main section figure 
+{
+ float: none;
+ margin: 20px auto;
+ display: flex;
+ justify-content: center;
+}
+  
+nav 
+{
+ position: static;
+ text-align: left;
+}
+
+.responsive-img 
+{
+ max-width: 100%;
+ height: auto;
+ display: block;
+ margin: 10px auto;
+ border-radius: 8px;  
+}
+}
+
