@@ -1,0 +1,21 @@
+main article h2
+{
+ font-family: "Tektur", sans-serif;
+ color: white;
+ text-align: center;
+ font-size: 30px;
+ background-color: #082304;
+ margin-left: 45%;
+ margin-right: 45%;
+ padding: 10px 10px;
+ border-radius: 10px;
+}
+
+hr
+{
+ color: #f8f8f8;
+ width: 80%;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 5%;
+}

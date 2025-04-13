@@ -27,17 +27,19 @@ h1
 {
  font-size: 40px;
  color: #f8f8f8;
-
+ padding: 10px 10px;
+ border-radius: 10px;
  text-align: center;
  background: #082304;
  padding: 2px 2px;
  margin-left: 44%;
-margin-right: 44%;
+ margin-right: 44%;
  border: 5px solid #082304;
 }
 
 h3
 {
+ font-family: "Tektur", sans-serif;
  font-size: 35px;
  color: #f8f8f8;
  margin-left: 2%;
