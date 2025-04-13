@@ -29,68 +29,73 @@ hr
  margin-top: 5%;
 }
 
-.game-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    margin: 40px 20px;
-    padding: 20px;
-    background-color: #08230489;
-    border: 5px solid #082304;
-    border-radius: 20px;
-    box-shadow: 0 0 50px #517b25;
-    flex-wrap: wrap;
-  }
+.game-container 
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 40px;
+ margin: 40px 20px;
+ padding: 20px;
+ background-color: #08230489;
+ border: 5px solid #082304;
+ border-radius: 20px;
+ box-shadow: 0 0 50px #517b25;
+ flex-wrap: wrap;
+}
+
 main article div:hover
 {
  transform: translateY(-5px);
  box-shadow: 0 0 50px   #517b25;
- background-image: url('../Images/Background/gaming-vector-background-landscape-video-600nw-2308922901.jpg');
+ background-color: #082304c7;
+}
+ 
+.game-img img 
+{
+ border-radius: 10px;
+ box-shadow: 0 0 20px #00000066;
+}
+  
+.game-description 
+{
+ max-width: 400px;
+ text-align: justify;
+ color: #f8f8f8;
+ font-size: 20px;
+ text-shadow: 0 0 3px #000;
+}
+  
+.game-description h3 
+{
+ font-size: 28px;
+ margin-bottom: 10px;
+ text-align: center;
+ color: white;
 }
 
-
+.itch-link 
+{
+ text-align: center;
+ margin-top: 30px;
+}
   
-  .game-img img {
-    border-radius: 10px;
-    box-shadow: 0 0 20px #00000066;
-  }
+.itch-link a
+{
+ font-family: "Tektur", sans-serif;
+ font-size: 22px;
+ color: #ffffff;
+  background: #0b3105;
+padding: 5px 20px;
+  text-decoration: none;
+border-radius: 10px 1px;
+  transition: all 0.3s ease-in-out;
+}
   
-  .game-description {
-    max-width: 400px;
-    text-align: justify;
-    color: #f8f8f8;
-    font-size: 20px;
-    text-shadow: 0 0 3px #000;
-   
-  }
-  
-  .game-description h3 {
-    font-size: 28px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: white;
-  }
-
-  .itch-link {
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  .itch-link a {
-    font-family: "Tektur", sans-serif;
-    font-size: 22px;
-    color: #ffffff;
-    background: #0b3105;
-    padding: 10px 30px;
-    border-radius: 12px 80px;
-    text-decoration: none;
-    box-shadow: 0 0 20px #517b25bb;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .itch-link a:hover {
+.itch-link a:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 0 0 50px #517b25;
     background: #517b25;
-    color: #0b3105;
-    box-shadow: 0 0 25px #ffffffa0;
-  }
+    color: white;
+}
