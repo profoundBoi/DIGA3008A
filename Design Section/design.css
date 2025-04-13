@@ -12,6 +12,17 @@ main article h2
   -webkit-text-stroke: 1.5px #000000;
 }
 
+main article li
+{
+ text-align: justify;
+ font-size: 30px;
+ color: #f8f8f8;
+ margin-top: 20px;
+ margin-bottom: 10px;
+ margin-left: 5%;
+ margin-right: 7%;
+}
+
 h1
 {
  font-size: 40px;
@@ -67,10 +78,19 @@ hr
 
 @media screen and (max-width: 1000px)
 {
- main article h2 
- {
+main article h2 
+{
   font-size: 24px;
   -webkit-text-stroke: 1px #000000;
+}
+
+main article li 
+{
+ font-size: 20px;
+ margin-left: 5%;
+ margin-right: 5%;
+ margin-top: 15px;
+ margin-bottom: 10px;
 }
   
 h1 
