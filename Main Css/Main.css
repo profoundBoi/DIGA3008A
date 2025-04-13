@@ -92,7 +92,7 @@ header
  font-size: 30px;
  color: #ffffff;
  float: right;
- margin-right: 60px;
+ margin-right: 40px;
  line-height: 80px;
  cursor: pointer;
  display: none;
@@ -154,7 +154,7 @@ footer a
   background-color:#334e2e;
   height: 100vh;
   text-align: left;
-  margin-right: 10px;
+  margin-right: 0px;
   top: 64px;
   right: -120%;      /*this will help me hide the menu*/
   transition: all 1s; /*this will help me control time between transitions specifically the menu*/
@@ -177,6 +177,6 @@ footer a
  footer
  {
   width: 90%;
-  height: 10vh;
+  height: 20vh;
  }
 }
