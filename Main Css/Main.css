@@ -21,6 +21,7 @@ nav
  text-shadow: 0 0 5px #000000;
  position:fixed;
  top: 0px;
+ z-index: 999;
 }
 
 nav ul li a:hover
