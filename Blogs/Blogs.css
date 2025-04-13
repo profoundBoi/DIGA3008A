@@ -94,3 +94,67 @@ main article li
  margin-left: 5%;
  margin-right: 7%;
 }
+
+@media screen and (max-width: 1000px)
+{
+ .Blog-Container {
+ flex-direction: column;
+ align-items: center;
+ margin: 50px 5% 10%;
+}
+  
+.blog-card 
+{
+ width: 90%;
+ height: auto;
+ margin-left: 0;
+ margin-bottom: 30px;
+ padding: 15px;
+}
+  
+main h2 
+{
+ font-size: 28px;
+}
+  
+main p
+{
+ font-size: 18px;
+ margin: 10px 5%;
+}
+  
+.read-more
+{
+ font-size: 16px;
+ padding: 8px 16px;
+ margin-top: 20px;
+}
+  
+    
+main article 
+{
+ font-size: 20px;
+ margin: 5%;
+}
+  
+.blog-weeks 
+{
+ box-shadow: 0 0 25px 10px #517b2591;
+}
+  
+main article li
+{
+ font-size: 18px;
+ margin-left: 5%;
+ margin-right: 5%;
+}
+
+.responsive-img 
+{
+ max-width: 100%;
+ height: auto;
+ display: block;
+ margin: 10px auto;
+ border-radius: 8px;  
+}
+}
