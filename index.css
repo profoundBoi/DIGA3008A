@@ -40,6 +40,27 @@ main section figure
  margin-right: 2%;
 }
 
+main section article h3{
+    text-align: justify;
+    margin-left: 42%;
+    font-size: 40px;
+    -webkit-text-stroke: 1.5px #000000; 
+}
+
+.skills-list {
+    list-style-type: none;
+    font-size: 35px;
+    color: #f8f8f8;
+    padding: 50px 50px;
+    margin-top: 20px;
+    text-shadow: 0 0 3px #000;
+    margin-bottom: 25%;
+    text-align: left;
+    background: #08230489;
+    border: 5px solid #082304;
+    
+  }
+
 @media screen and (max-width: 1000px) 
 {
 section h2 
