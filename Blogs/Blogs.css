@@ -66,6 +66,13 @@ main p
  box-shadow: 0 0 20px   #517b25bb; 
 }
 
+.read-more:hover
+{
+ background: #517b25;
+ color: #fff;
+ box-shadow: 0 0 50px   #517b25; 
+}
+
 main article
 {
     font-family: "Tektur", sans-serif;
@@ -76,7 +83,7 @@ main article
  color: rgb(255, 255, 255);
  font-size: 30px;
  background-position-y: -26%;
- text-shadow: 0 0 115px #000000;
+ text-shadow: 0 0 15px #000000;
  
 }
 
