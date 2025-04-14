@@ -75,16 +75,17 @@ main p
 
 main article
 {
-    font-family: "Tektur", sans-serif;
+ font-family: "Tektur", sans-serif;
  margin-left: 15%;
  margin-right: 15%;
  margin-top: 3%;
  text-align: justify;
  color: rgb(255, 255, 255);
- font-size: 30px;
+ font-size: 25px;
  background-position-y: -26%;
- text-shadow: 0 0 15px #000000;
- 
+ border: 5px solid #082304;
+ background-color: #08230489;
+ padding: 15px 15px;;
 }
 
 .blog-weeks
