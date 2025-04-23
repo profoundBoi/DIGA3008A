@@ -53,3 +53,8 @@ let power = voltage * current;
 console.log("The power is: " + power + " watts.");
 
 //Exercise 5:
+
+function getComponent()
+{
+    
+}
