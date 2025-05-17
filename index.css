@@ -6,6 +6,8 @@ section h2
  font-size: 30px;
 }
 
+
+
 .container
 {
  border: 5px solid #082304;
@@ -15,6 +17,47 @@ section h2
  box-shadow: 0 0 55px 20px   #517b2591;
  background-color: #08230489;
  align-items: center;
+}
+
+#explore {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Tektur", sans-serif;
+  color: white;
+  margin-bottom: 20px;
+}
+.Website-explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 90%;
+}
+
+.container-Explore{
+  margin: 0 auto;
+  height: 40vh;
+  width: 50%;
+  border: 5px solid #082304;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 55px 20px   #517b2591;
+  background-color: #334e2e;
+}
+
+.container-Explore button{
+ background:#082304;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  transition: ease-in-out 0.2s;
+}
+
+.container-Explore button:hover{
+background: #316301 ;
+cursor: pointer;
 }
 
 nav
@@ -90,11 +133,13 @@ main section article h3{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
   word-wrap: break-word; 
+  transition: ease-in-out 0.2s;
 }
 
 .skills-list li:hover 
 {
   transform: scale(1.05);
+  background: #316301 ;
 }
 
 .skills-list i 
