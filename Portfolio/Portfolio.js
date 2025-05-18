@@ -1,3 +1,4 @@
+//This code is handling my links to itch.io
 document.addEventListener("DOMContentLoaded", function () 
 {
   const itchLinks = document.querySelectorAll('a[href*="itch.io"]');
