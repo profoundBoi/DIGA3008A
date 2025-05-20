@@ -41,9 +41,15 @@ main h2
  margin-top: 20px;
 }
 
+main ul
+{
+ margin-right: 4%;
+ text-decoration: underline;
+}
+
 main p
 {
- text-align: center;
+ text-align: justify;
  font-size: 20px;
  color: #f8f8f8;
  margin-top: 10px;
