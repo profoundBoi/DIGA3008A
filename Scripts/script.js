@@ -9,4 +9,4 @@ constant = true;
 console.log(constant );
 console.log("Hello, My friend!");
 
-window.alert("Hello, My friend!");
+//window.alert("Hello, My friend!");
