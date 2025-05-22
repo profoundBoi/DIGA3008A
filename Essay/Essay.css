@@ -24,3 +24,95 @@
  margin-bottom: 20px;
  margin-left: 1%;
 }
+
+main h2
+{
+ font-family: "Tektur", sans-serif;
+ text-align: center;
+ font-size: 35px;
+ color: #f8f8f8;
+ margin-top: 20px;
+}
+
+main p 
+{
+ text-align: justify;
+ font-size: 20px;
+ color: #f8f8f8;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 5%;
+ margin-right: 7%;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main li
+{
+  text-align: justify;
+ font-size: 20px;
+ color: #f8f8f8;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 5%;
+ margin-right: 7%;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main article
+{
+ font-family: "Tektur", sans-serif;
+ margin-left: 15%;
+ margin-right: 15%;
+ margin-top: 3%;
+ text-align: justify;
+ color: rgb(255, 255, 255);
+ font-size: 25px;
+ background-position-y: -26%;
+}
+
+.read-more
+{
+ display: inline-block;
+ margin-top: auto;
+ color: #fff;
+ border-radius: 6px;
+ font-weight: bold;
+ text-align: center;
+ background:#0b3105;
+ padding: 5px 20px;
+ border-radius: 10px 90px;
+ box-shadow: 0 0 20px   #517b25bb; 
+}
+
+.read-more:hover
+{
+ background: #517b25;
+ color: #fff;
+ box-shadow: 0 0 50px   #517b25; 
+}
+
+.Blog-Header
+{
+ border: 5px solid #082304;
+ background-color: #08230489;
+ padding: 15px 15px;
+}
+
+.Essay
+{
+ border: 5px solid #082304;
+ background-color: #08230489;
+ box-shadow: 0 0 55px 20px   #517b2591;
+ margin-bottom: 10%;
+}
+
+main article li
+{
+ text-align: justify;
+ font-size: 25px;
+ color: #f8f8f8;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-left: 5%;
+ margin-right: 7%;
+}

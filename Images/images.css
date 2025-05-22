@@ -16,7 +16,8 @@ figure img:hover
  transition: all 0.2s ease-in-out;
 }
 
-.img-overlay {
+.img-overlay 
+{
   position: fixed;
   top: 0;
   left: 0;
@@ -30,7 +31,8 @@ figure img:hover
   cursor: zoom-out;
 }
 
-.enlarged-img {
+.enlarged-img 
+{
   max-width: 90%;
   max-height: 90%;
   border: 4px solid white;
