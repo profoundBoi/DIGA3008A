@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function ()
 
         if (current > 1) 
         {
-            html += `<a href="blog${current - 1}.html" class="page-link">Previous</a> `;
+            html += `<a href="Blog${current - 1}.html" class="page-link">Previous</a> `;//changed b to B
         } 
         else 
         {
@@ -30,13 +30,13 @@ document.addEventListener("DOMContentLoaded", function ()
             } 
             else 
             {
-                html += `<a href="blog${i}.html" class="page-link">${i}</a> `;
+                html += `<a href="Blog${i}.html" class="page-link">${i}</a> `;//changed b to B
             }
         }
 
         if (current < totalPages) 
         {
-            html += `<a href="blog${current + 1}.html" class="page-link">Next</a>`;
+            html += `<a href="Blog${current + 1}.html" class="page-link">Next</a>`;//changed b to B
         } 
         else 
         {
@@ -52,11 +52,11 @@ document.addEventListener("DOMContentLoaded", function ()
     }
 
     blogContainers.forEach(container => 
-    {
+    {//changed b to B
         const navHTML = `
             <div class="inline-nav">
-                ${currentPage > 1 ? `<a href="blog${currentPage - 1}.html" class="page-link">← Previous</a>` : ""}
-                ${currentPage < totalPages ? `<a href="blog${currentPage + 1}.html" class="page-link">Next →</a>` : ""}
+                ${currentPage > 1 ? `<a href="Blog${currentPage - 1}.html" class="page-link">← Previous</a>` : ""}
+                ${currentPage < totalPages ? `<a href="Blog${currentPage + 1}.html" class="page-link">Next →</a>` : ""}
             </div>
         `;
 
