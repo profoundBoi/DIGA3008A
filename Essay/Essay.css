@@ -70,6 +70,13 @@ main article
  background-position-y: -26%;
 }
 
+.Essay-card:hover 
+{
+ transform: translateY(-5px);
+ box-shadow: 0 0 50px   #517b25;
+ background-image: url('../Images/Background/gaming-vector-background-landscape-video-600nw-2308922901.jpg');
+}
+
 .read-more
 {
  display: inline-block;
