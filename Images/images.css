@@ -23,19 +23,72 @@ figure img:hover
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.85);
+  background: rgba(0,0,0,0.9);
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1000;
-  cursor: zoom-out;
 }
 
-.enlarged-img 
+.enlarged-img
 {
   max-width: 90%;
   max-height: 90%;
-  border: 4px solid white;
-  border-radius: 10px;
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+}
+
+.nav-arrow 
+{
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+  z-index: 1001;
+}
+
+.left-arrow 
+{
+  left: 20px;
+}
+
+.right-arrow 
+{
+  right: 20px;
+}
+.img-prev, .img-next 
+{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  user-select: none;
+  z-index: 1001;
+}
+
+.img-prev::before 
+{
+  content: '<'; 
+}
+
+.img-next::before 
+{
+  content: '>'; 
+}
+
+.img-prev 
+{
+  left: 20px;
+}
+
+.img-next 
+{
+  right: 20px;
 }
