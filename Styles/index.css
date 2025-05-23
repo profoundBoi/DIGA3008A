@@ -152,13 +152,12 @@ figure img
 {
  height: 520px;
  width: 500px;
-
+ margin-bottom: 5px;
 }
 
 figure img:hover
 {
  transform: scale(1.01);
- 
  opacity: 100%;
  transition: all 0.2s ease-in-out;
 }
