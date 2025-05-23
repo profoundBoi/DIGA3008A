@@ -6,6 +6,7 @@
     <meta name="description" content="Connor Van Heerden's personal website. A portfolio of my work and a blog about my experiences.">
     <meta name="author" content="Connor Van Heerden">
     <meta name="keywords" content="Connor Van Heerden, game design, portfolio, blog, indie dev, game developer, 2D Assets, 3D Models, game art, game design, game development, indie games, game design portfolio, game design blog, game design inspiration, game design resources">
+    <meta name="description" content="Homepage about Connor van Heerden showing his skills and what he is about."/>
     <title>Homepage</title>
     <link rel="stylesheet" href="./Styles/Normalize.css">
     <link rel="stylesheet" href="./Main-Css/Main.css">
@@ -23,7 +24,7 @@
     
 </head>
 
-<body>
+<body itemscope itemtype="https://schema.org/Person">
 <nav>
   <input type="checkbox" id="check">
   <label for="check" class="bar-button"><i class="fa-solid fa-bars"></i></label>
@@ -53,11 +54,11 @@
 
     <article>
        <h2>About Me</h2>
-       <p>I'm Connor Van Heerden, a game designer and develper passionate about crafting unique and playful digital 
+       <p itemprop="description">I'm Connor Van Heerden, a game designer and develper passionate about crafting unique and playful digital 
        experiences. I'm currently a 3rd-year student at the University of the Witwatersrand, pursuing a BA in Digital Arts with 
        majors in Game Design and Interactive Media.</p>
        <p>
-       <P>Outside of university, I'm the co-founder and lead game designer at Safe Dollar Studios, a gaming company focused on 
+       <P itemprop="description">Outside of university, I'm the co-founder and lead game designer at Safe Dollar Studios, a gaming company focused on 
        playful, experimental, and engaging projects. This website is a peak into the work I've done. From solo creations to 
        collaborative efforts. Feel free to explore my portfolio to see some of the games I've designed or helped bring to life. 
        Get inspired!</P>
@@ -98,7 +99,7 @@
       
 <button id="backToTopBtn" title="Back to Top">↑</button>
 
-<footer>
+<footer itemprop="mainEntityOfPage" itemscope itemtype="https://schema.org/WebPage">
   <p>
     <a href="mailto:connor170103@gmail.com">
     <i class="fas fa-envelope"></i> Email
