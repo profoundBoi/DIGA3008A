@@ -124,6 +124,83 @@ main article li
  margin-left: 30%;
 }
 
+#pagination 
+{
+  text-align: center;
+  margin: 40px 0;
+  font-family: "Tektur", sans-serif;
+}
+
+.page-link 
+{
+  margin: 0 8px;
+  padding: 6px 14px;
+  background-color: #0b3105;
+  color: #f8f8f8;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px 90px;
+  box-shadow: 0 0 15px #517b25aa;
+  transition: all 0.3s ease;
+}
+
+.page-link:hover 
+{
+  background-color: #517b25;
+  box-shadow: 0 0 25px #517b25;
+  color: #fff;
+}
+
+#pagination strong 
+{
+  background-color: #517b25;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 10px 90px;
+  font-weight: bold;
+  box-shadow: 0 0 25px #517b25aa;
+  margin: 0 8px;
+}
+
+.disabled 
+{
+  color: #777;
+  padding: 6px 14px;
+  border-radius: 10px 90px;
+  background-color: #0b3105;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.inline-nav 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+  padding: 0 20px;
+  font-family: "Tektur", sans-serif;
+}
+
+.inline-nav a 
+{
+  background-color: #0b3105;
+  color: #f8f8f8;
+  padding: 6px 18px;
+  border-radius: 10px 90px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 15px #517b25aa;
+  transition: all 0.3s ease;
+}
+
+.inline-nav a:hover 
+{
+  background-color: #517b25;
+  box-shadow: 0 0 25px #517b25;
+  color: #fff;
+}
+
 @media screen and (max-width: 1000px)
 {
  .Blog-Container {
