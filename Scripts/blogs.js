@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () 
 {
-    const totalPages = 10;
+    const totalPages = 11;
     const paginationContainer = document.getElementById("pagination");
     const blogContainers = document.querySelectorAll(".blog-weeks");
 
